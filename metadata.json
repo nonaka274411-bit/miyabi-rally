@@ -1,0 +1,7 @@
+{
+  "name": "Miyabi Rally (雅ラリー)",
+  "description": "A premium, Japanese-style stamp rally application featuring motion animations and AI-generated fortunes.",
+  "requestFramePermissions": [
+    "camera"
+  ]
+}
