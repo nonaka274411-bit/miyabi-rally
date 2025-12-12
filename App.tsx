@@ -3,7 +3,7 @@ import { motion, AnimatePresence, useAnimation, PanInfo } from 'framer-motion';
 import { MapPin, Stamp, Gift, QrCode, X, ChevronRight, Sparkles, ScanLine, ArrowRight, Check, Map, Navigation, Locate, Phone, Clock } from 'lucide-react';
 import { CHECKPOINTS, PRIZES } from './constants';
 import { AppView, Checkpoint, Prize } from './types';
-import { generateFortune } from './services/geminiService';
+import { generateFortune } from './geminiService';
 
 // --- Global Type Definition for Leaflet ---
 // @ts-ignore
